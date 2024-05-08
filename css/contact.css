@@ -1,0 +1,66 @@
+/* 
+    Author: Siqian Liu
+	Date: Mar. 9, 2024
+	Desc: Contact CSS for Assinment 1.
+*/
+
+#s1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+}
+
+.form-container {
+    width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: white;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 1;
+    margin: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ddd;
+    box-sizing: border-box; 
+}
+
+.submit-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left:10px;
+}
+
+.thank-you {
+    margin-top: 10px;
+    margin-left:10px;
+    text-align: center;
+    color: gray;
+}

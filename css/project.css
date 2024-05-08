@@ -1,0 +1,90 @@
+/* 
+    Author: Siqian Liu
+	Date: Mar. 9, 2024
+	Desc: Projects CSS for Assinment 1.
+*/
+
+.container {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+
+
+#s2,#s3,#s4,#s5,#s6 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#s2>p{
+    width:50%
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    background-color: rgb(250, 249, 249);
+    width:50%;
+    height: 100%;
+}
+
+.project-content {
+    box-sizing: content-box;
+    width: 30%;
+    height: 100%;
+    padding-right: 20px;
+    padding-left:20px;
+    background-color: white;
+    
+}
+
+.project-image {
+    box-sizing: content-box;
+    width: 70%;
+    text-align:center;
+    background-color: rgb(250, 249, 249);
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+.carousel {
+    position:relative;
+    width:100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 35%;
+    cursor:pointer;
+}
+
+a>img {
+    height:60px;
+    width:60px;
+}
+
+.carousel-control-prev {
+    left: 20%;
+}
+
+.carousel-control-next {
+    right: 20%;
+}

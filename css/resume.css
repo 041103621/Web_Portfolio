@@ -1,0 +1,124 @@
+/* 
+    Author: Siqian Liu
+	Date: Mar. 9, 2024
+	Desc: Resume CSS for Assinment 1.
+*/
+
+.container {
+    display:flex;
+    flex-direction: column;
+}
+.resume-contact {
+	text-align: center;
+	font-size: 14px;
+	font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#s1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 20px;
+	
+}
+
+#s0,#s2,#s3,#s4 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+#s2,#s3 {
+    margin-bottom:60px;
+}
+
+.resume-head {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:50%;
+}
+.resume-body {
+    display:flex;
+    border:1px solid #ccc;
+    padding:20px;
+    width:50%;
+    background-color: white;
+}
+
+.education-body {
+    display:flex;
+    border:1px solid #ccc;
+    padding:20px;
+    width:50%;
+    background-color: white;
+}
+
+
+.skill-body{
+    display:flex;
+    flex-direction: column;
+    border:1px solid #ccc;
+    padding:20px;
+    width:50%;
+    background-color: white;
+}
+
+.left-panel {
+	box-sizing: content-box;
+	width: 20%;
+    padding-right:20px;
+}
+
+.edu-left-panel {
+	box-sizing: content-box;
+	width: 30%;
+    padding-right:20px;
+}
+.edu-right-panel {
+    text-align: left;
+}
+.right-panel {
+    flex:1;
+}
+
+.time, .job-position, .company-name, .company-location {
+    margin-bottom: 5px; 
+}
+
+.time {
+    color:blue;
+	font-weight: bold;
+}
+
+.job-position {
+	font-weight: bold;
+}
+
+
+.head-tail {
+    padding:10px 20px;
+    background-color: blue;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:30px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:5px;
+}
+
+.item {
+    background-color: white;
+    margin-bottom: 5px;
+}

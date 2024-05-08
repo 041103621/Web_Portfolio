@@ -1,0 +1,79 @@
+/*  Author: Siqian Liu
+	Date: Mar. 2, 2024
+	Desc: the Style.css file for 1_intro.html for Assinment 1
+	*/
+	
+
+
+.container{
+	display: flex;
+	flex-direction: row;
+	max-width: 600px;
+    margin: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	justify-content: space-between;
+	
+}
+
+.main-container {
+	position: absolute;
+	margin-top:0;
+	min-height:0; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 50%; 
+    padding: 20px; 
+}
+
+.box{
+	width: 300px;
+	padding: 5px;
+}
+ h1{
+	 margin: 5px;
+	 padding: 0px;
+	 font-size: 70px;
+	 font-weight: 900;
+ }
+
+button {
+	font-size: 10px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+    width: 80px;
+    height: 30px;
+	
+}
+
+button:hover{
+	background-color: blue;
+	color: white;
+}
+
+#resume{
+	background-color: blue;
+	color: white;
+}
+
+#intro{
+	padding: 15px;
+	margin: 10px;
+	background-color:white;
+	font-size: 12px;
+	line-height: 1.6;
+	
+}
+
+p a{
+	text-decoration: none;
+	color: blue;
+}
+
+
+
+
+

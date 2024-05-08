@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- 
+    Author: Siqian Liu
+	Date: Mar. 9, 2024
+	Desc: Contact page for Assinment 1.
+     -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+   >
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <title>CONTACT</title>
+  </head>
+  <body>
+    <header>
+      <nav class="name-role">
+        <span class="blue-square"></span>
+        <span class="name">Siqian Liu</span>
+        <span class="role"> / Developer & DBA</span>
+      </nav>
+      <nav class="navigation">
+        <a href="index.html">ABOUT ME|</a>
+        <a href="resume.html">RESUME|</a>
+        <a href="projects.html">PROJECTS|</a>
+        <a href="contact.html">CONTACT|</a>
+      </nav>
+    </header>
+    <main class="container">
+      <div id="s1">
+        <h2><span class="blue-square"></span> Let's Talk</h2>
+      </div>
+      <div class="form-container">
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name *</label>
+              <input type="text" id="first-name" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name *</label>
+              <input type="text" id="last-name" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">SEND</button>
+          <div class="thank-you">Thanks for submitting!</div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>© 2024 by Siqian Liu</p>
+    </footer>
+  </body>
+</html>
